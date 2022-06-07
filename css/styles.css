@@ -142,6 +142,8 @@ a {
   color: var(--text-color);
 }
 
+/* Footer */
+
 .logo-alternative {
   color: #fff;
 }
@@ -167,4 +169,54 @@ a {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.portfolio-menu {
+  list-style-type: none;
+}
+
+.portfolio-filter {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: #f5f4fa;
+
+  cursor: pointer;
+}
+
+.portfolio-filter:focus,
+.portfolio-filter:hover {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+.portfolio-list {
+  list-style-type: none;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-color);
+}
+
+.title-style:hover,
+.title-style:focus,
+.descrition-style:hover,
+.descrition-style:focus {
+  color: var(--accent-color);
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color);
 }
